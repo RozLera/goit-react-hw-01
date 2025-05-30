@@ -14,10 +14,8 @@ export default function TransactionHistory({ items }) {
 
       <tbody>
         {items.map(item => (
-          <tr>
-            <td className={s.type} key={item.id}>
-              {capitalizeFirstLetter(item.type)}
-            </td>
+          <tr key={item.id}>
+            <td className={s.type}>{capitalizeFirstLetter(item.type)}</td>
             <td className={s.amount}>{item.amount}</td>
             <td className={s.currency}>{item.currency}</td>
           </tr>
