@@ -1,0 +1,32 @@
+.table {
+  width: 100%;
+  min-width: 300px;
+  max-width: 700px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tittle {
+  background-color: rgb(43, 38, 38);
+  color: #e0e0e0;
+  font-weight: bold;
+  padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+.type,
+.amount,
+.currency {
+  text-align: left;
+  padding: 12px 10%;
+  border: 1px solid #ccc;
+}

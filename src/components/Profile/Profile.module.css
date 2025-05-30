@@ -1,5 +1,6 @@
 .profile {
-  width: 340px;
+  /* width: 340px; */
+  width: 40%;
   border: 2px solid #1b1a1a;
   border-radius: 12px;
   overflow: hidden;
@@ -8,6 +9,7 @@
   background-color: rgb(251, 237, 237);
   box-shadow: 0 0 8px rgba(30, 22, 22, 0.1);
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .profileAvatar {
@@ -15,6 +17,8 @@
 }
 
 .avatar {
+  margin: 0 auto;
+  width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
